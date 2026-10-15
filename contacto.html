@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto | TiendaShinden</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <!-- TAREA 01: Cambia TechStore por el nombre de tu tienda EN LAS 5 PÁGINAS. -->
+      <a class="brand" href="index.html">⚡ TiendaShinden</a>
+      <nav aria-label="Navegación principal" class="nav">
+        <a href="index.html">Inicio</a>
+<a href="productos.html">Productos</a>
+<a href="detalle.html">Detalle</a>
+<a href="nosotros.html">Nosotros</a>
+<a href="contacto.html" aria-current="page">Contacto</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="container section narrow"><span class="eyebrow">Hablemos</span><h1>Contacto</h1>
+      <p>Formulario de demostración: no envía ni guarda datos.</p>
+      <!-- TAREA 13: Investiga para qué sirven label, for, id, name, required y type. -->
+      <form class="contact-form" action="#" method="get" onsubmit="return false;">
+        <label for="select">Motivo de contacto</label><select id="select" name="select" required>
+          <option value="">Selecciona un motivo</option>
+          <option value="consulta">Consulta</option>
+          <option value="sugerencia">Sugerencia</option>
+          <option value="reclamo">Reclamo</option>
+       </select>
+        <label for="nombre">Nombre</label><input id="nombre" name="nombre" type="text" placeholder="Tu nombre" required>
+        <label for="correo">Correo electrónico</label><input id="correo" name="correo" type="email" placeholder="ejemplo@correo.com" required>
+        <label for="mensaje">Mensaje</label><textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu consulta" required></textarea>
+        <!-- TAREA 14: Agrega un campo select para elegir el motivo de contacto. -->
+        <button class="btn" type="submit">Enviar (demostración)</button>
+      </form>
+      <p class="notice">Este botón es únicamente visual; no existe un servidor para recibir mensajes.</p>
+      <!-- TAREA 15: Agrega un bloque con horario ficticio y enlaces a las demás páginas. -->
+       <!-- TAREA 15: Agrega un bloque con horario ficticio y enlaces a las demás páginas. -->
+<div class="info-footer">
+    <h3>Horario de Atención</h3>
+    <p>Lunes a Viernes: 9:00 AM - 6:00 PM</p>
+    <p>Sábados: 10:00 AM - 2:00 PM</p>
+
+    <h3>Enlaces Rápidos</h3>
+    <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="productos.html">Productos</a></li>
+    </ul>
+</div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="container">
+    <!-- TAREA 02: Personaliza el texto del pie de página en todas las páginas. -->
+    <p>© 2026 TiendaShinden · Proyecto educativo con información ficticia.</p>
+  </div></footer>
+</body>
+</html>
